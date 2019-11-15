@@ -1,0 +1,9 @@
+---------
+comandos
+--------
+
+1) yarn add node-sass react-router-dom material-components-web //-->Con Material Design
+
+1) yarn add @material-ui/core //--> con Material-ui
+
+2)yarn add @material-ui/icons
