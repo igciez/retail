@@ -5,9 +5,10 @@ const useStyles = makeStyles(theme => {
 
     return ({
         root:{
-            display:'float',
+            // display:'float',
             height: '10vh',
             background: 'red',
+            zIndex:1,
         },
         frontDiv: {            
             //position:'absoulte',
