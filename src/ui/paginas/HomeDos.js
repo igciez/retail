@@ -11,20 +11,20 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
     },
     container: {
-        width: '90vw',        
+        width: '92vw',        
         background: 'pink',        
-        padding: '1rem',
+        //padding: '1rem',
         
     },
     grid: {
         display: 'flex',
         justifyContent: 'center',
-        alignContent: 'flex-start',
+        //alignContent: 'flex-start',
         padding: '1rem',
     },
     image: {
-        maxWidth: '100%',
-        maxHeight: '100%',
+        maxWidth: '100%', //Maximo readaptable del ancho, del valor para arriba no se adapta. (en caso de porcentaje permite que siempre se readpte)
+        maxHeight: '100%',//minHeight : minimo readptable, del valor para abajo no se adapta.
     },
     footer: {
         position: 'fixed',
@@ -52,8 +52,8 @@ const HomeDos = () => {
                 container
                 // spacing={3}
                 direction="row"
-                justify="center"
-                alignItems="flex-start"
+                //justify="center"
+                //alignItems="flex-start"
                 className={classes.container}
             >
                 {
