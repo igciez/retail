@@ -10,7 +10,11 @@ const App = () => (
         <Header />
         <FilterBar />
         <Main />
+<<<<<<< HEAD
         {/* <Footer /> */}
+=======
+        <Footer />
+>>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
     </React.Fragment>
 )
 

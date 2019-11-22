@@ -11,6 +11,7 @@ const useStyles = makeStyles(theme => ({
     root: {
         display: 'flex',
         flexWrap: 'wrap',
+<<<<<<< HEAD
         //height: "70vh",
         width: "90vw",
         justifyContent: 'space-around',
@@ -26,6 +27,19 @@ const useStyles = makeStyles(theme => ({
         // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
         transform: 'translateZ(0)',
 
+=======
+        justifyContent: 'space-around',
+        overflow: 'hidden',
+        margin:theme.spacing(2),
+        backgroundColor: theme.palette.background.paper,
+    },
+    gridList: {
+        width: "60vw",
+        // height: "40vh",
+        // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
+        transform: 'translateZ(0)',
+        
+>>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
     },
     titleBar: {
         background:
@@ -34,7 +48,11 @@ const useStyles = makeStyles(theme => ({
     },
     icon: {
         color: 'white',
+<<<<<<< HEAD
     }
+=======
+    },
+>>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
 }));
 
 
@@ -44,9 +62,15 @@ const Home = () => {
 
     return (
         <div className={classes.root}>
+<<<<<<< HEAD
             <GridList cellHeight={200} spacing={22} cols={6}>
                 {images.map(tile => (
                     <GridListTile key={tile.title} rows={1.5} cols={1.5}>
+=======
+            <GridList cellHeight={200} spacing={22} className={classes.gridList}>
+                {images.map(tile => (
+                    <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
+>>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
                         <img src={tile.img} alt={tile.title} />
                         <GridListTileBar
                             title={tile.title}
