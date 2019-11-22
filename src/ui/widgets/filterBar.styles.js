@@ -6,7 +6,6 @@ const useStyles = makeStyles(theme => {
     return ({
         root:{
             // display:'float',
-<<<<<<< HEAD
             //height: '8.5vh',
             //position:'relative',
             // [theme.breakpoints.down('md')]: {
@@ -14,11 +13,6 @@ const useStyles = makeStyles(theme => {
             // },
             background: 'red',
             //zIndex:1,
-=======
-            height: '10vh',
-            background: 'red',
-            zIndex:1,
->>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
         },
         frontDiv: {            
             height:'7.2vh',

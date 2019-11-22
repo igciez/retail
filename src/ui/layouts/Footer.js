@@ -9,12 +9,9 @@ const useStyles = makeStyles(theme => ({
         display:'flex',
         flexDirection: "row-reverse",
         height: '10vh',
-<<<<<<< HEAD
         [theme.breakpoints.down('md')]: {
             height: '7vh',
         },
-=======
->>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
         background: 'red',
         zIndex: 1,
     },
@@ -27,11 +24,7 @@ const useStyles = makeStyles(theme => ({
         height: '100%',
         width:"7vw", // add media query!!!
         [theme.breakpoints.down('md')]: {
-<<<<<<< HEAD
             width: '13vw',
-=======
-            width: '10vw',
->>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
         },
         display: 'flex',
         flexDirection: "row-reverse",
@@ -39,11 +32,7 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
         background: 'blue',
         zIndex: 2,
-<<<<<<< HEAD
         clipPath: 'polygon(25% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%)',
-=======
-        clipPath: 'polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 100%)',
->>>>>>> 9bfd405db47f4c758720a65b4ce07db58d7ee6fa
         boxShadow:theme.shadows[22],
         // '&::before':{
         //     content: '""',
