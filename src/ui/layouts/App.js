@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Main from './Main';
 import FilterBar from '../widgets/FilterBar';
+import Footer from "./Footer";
 import './app.styles.css';
 
 const App = () => (
@@ -9,6 +10,7 @@ const App = () => (
         <Header />
         <FilterBar />
         <Main />
+        {/* <Footer /> */}
     </React.Fragment>
 )
 

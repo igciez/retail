@@ -25,10 +25,10 @@ const Header = () => {
                         to='/homeSpacing'
                     >
                         <MenuIcon />
-                        <Button color="inherit">Icono</Button>
+                        <Button color="inherit" className={classes.button}>Icono</Button>
                     </IconButton>
-                    <Hidden smDown className={classes.contentButton}>
-                        <Grid container>
+                    <Hidden smDown >
+                        <Grid container className={classes.contentButton}>
                             <Grid item sm>
                                 <Button color="inherit">Icono</Button>
                             </Grid>

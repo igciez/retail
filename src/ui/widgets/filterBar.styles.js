@@ -5,24 +5,28 @@ const useStyles = makeStyles(theme => {
 
     return ({
         root:{
-            display:'float',
-            height: '10vh',
+            // display:'float',
+            //height: '8.5vh',
+            //position:'relative',
+            // [theme.breakpoints.down('md')]: {
+            //     size= '7vh',
+            // },
             background: 'red',
+            //zIndex:1,
         },
         frontDiv: {            
-            //position:'absoulte',
-            // top: 0,
-            // left: 0,
-            // right: 0,
-            // bottom:0,
-            height:'100%',
+            height:'7.2vh',
             display: 'flex',
-            flexDirection:"row-reverse", 
+            flexDirection:"row-reverse",
             // justifyContent: 'flex-end',
+            [theme.breakpoints.down('md')]: {
+                clipPath: 'polygon(6% 0, 100% 0, 100% 100%, 0 100%, 0 100%);',
+                // height:'7.2vh',
+            },
             alignItems:'center',
             background: 'blue',
-            zIndex:2,
-            clipPath: 'polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 100%)',
+            //zIndex:2,
+            clipPath: 'polygon(3% 0, 100% 0, 100% 0, 100% 100%, 0 100%)',
             
             // '&::before':{
             //     content: '""',
@@ -37,8 +41,13 @@ const useStyles = makeStyles(theme => {
             
         },
         filterIcon:{
-            margin: ' 2rem' ,
-            fontSize: '2rem'
+            //marginLeft: '2rem',            
+            marginRight: '3%',
+            fontSize: '2rem',
+            [theme.breakpoints.down('md')]: {
+                marginRight: '3%',
+                fontSize: '1.5rem',
+            },
         }
     })
 });

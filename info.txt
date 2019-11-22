@@ -7,3 +7,14 @@ comandos
 1) yarn add @material-ui/core //--> con Material-ui
 
 2)yarn add @material-ui/icons
+
+-----------------
+Lista por Hacer:
+-----------------
+
+-Setear dos tamaños imagenes.
+-Efecto Phebe a imagenes.
+-Vista de menu.
+-Vista Compras.
+-Vista de logeo.
+-Mercado Pago.
